@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+venv/
+ENV/
+env/
+conda/
+*.conda
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Data & models (important)
+# =========================
+data/raw/
+data/LAS/
+models/*.joblib
+models/*.pkl
+models/*.pt
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Coverage / testing
+# =========================
+.coverage
+.pytest_cache/
+htmlcov/
