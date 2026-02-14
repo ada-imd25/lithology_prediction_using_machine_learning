@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import train_test_split
 
-from lithology_prediction_using_machine_learning import visualisation
+from lithology_prediction import visualisation
 
 def train_random_forest(train_csv, test_csv):
     # Read the training and testing CSV files
